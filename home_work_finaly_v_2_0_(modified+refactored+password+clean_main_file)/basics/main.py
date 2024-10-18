@@ -11,7 +11,7 @@ if start_our_program():
         username='Nishinokiri',
         age=27,
     )
-    create_tasks_gen(app)
+    # create_tasks_gen(app) не нужно вызывать, тк уже вызывается в строке ниже
     num_tasks = create_tasks_gen(app) # без это строки не работает если использовать строки ниже напрямую в мейне
     show_added_task_number(num_tasks)
     num_done_tasks(app, num_tasks)
