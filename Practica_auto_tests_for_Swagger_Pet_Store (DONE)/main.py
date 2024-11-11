@@ -22,7 +22,7 @@ test_methods = [
     "test_request_info_status_code",
     "test_first_del_pet",
     "test_confirm_del_exist_pet",
-    "test_PET_NOT_FOUND"
+    "test_PET_WAS_NOT_FOUND"
 ]
 
 #Записываем результаты и выводим в консоль
