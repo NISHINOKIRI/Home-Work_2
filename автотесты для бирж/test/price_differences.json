@@ -1,0 +1,32 @@
+[
+  {
+    "name": "BTC",
+    "price_binance": 88442.0,
+    "price_kucoin": 88443.6,
+    "date_and_time": "2024-11-13 02:13:53"
+  },
+  {
+    "name": "ETH",
+    "price_binance": 3279.74,
+    "price_kucoin": 3279.64,
+    "date_and_time": "2024-11-13 02:13:53"
+  },
+  {
+    "name": "SOL",
+    "price_binance": 214.49,
+    "price_kucoin": 214.545,
+    "date_and_time": "2024-11-13 02:13:54"
+  },
+  {
+    "name": "LTC",
+    "price_binance": 77.85,
+    "price_kucoin": 77.877,
+    "date_and_time": "2024-11-13 02:13:55"
+  },
+  {
+    "name": "NOT",
+    "price_binance": 0.007717,
+    "price_kucoin": 0.0077183,
+    "date_and_time": "2024-11-13 02:13:56"
+  }
+]
