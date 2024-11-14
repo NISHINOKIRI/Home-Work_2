@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 from changed_checker import Binance, Kucoin
 
-crypro_list = ["SOL"]  # Задаём тут список монеток которые хотим проверить
+crypro_list = ['ATOM', 'AXS', 'BTC', 'ETH', 'FIL', 'FTM','LTC', 'NEO', 'NOT', 'SOL', 'TON']  # Задаём тут список монеток которые хотим проверить
 
 class TestClass:
     # Создаем экземпляры классов
@@ -70,6 +70,7 @@ class TestClass:
             if bin_price is not None and kuk_price is not None:
                 dif = abs(bin_price - kuk_price)  # Находим абсолютное различие
                 dif_rounded = round(dif, 7)  # Округляем разницу до 7 знаков после запятой
+                dif_rounded_str = f'{dif_rounded:.7f}'
 
                 if bin_price != kuk_price:
                     current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -78,7 +79,7 @@ class TestClass:
                         'name': str(name_coin),
                         'price_binance': str(bin_price),
                         'price_kucoin': str(kuk_price),
-                        'different_price_value': '≈ ' +  str(dif_rounded),
+                        'different_price_value': '≈ ' +  str(dif_rounded_str),
                         'date_and_time': str(current_time)
                     }
                     self.save_to_json(data)  # Сохраняем данные только если цены различаются
