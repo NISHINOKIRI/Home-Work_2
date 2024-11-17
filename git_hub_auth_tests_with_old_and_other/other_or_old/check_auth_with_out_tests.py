@@ -38,5 +38,5 @@ def authenticate(nickname, url, actual_token):
 
 # Вызов функции для аутентификации
 github_api_auth('https://api.github.com', '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')
-# Вызов функции для проверки аутентификации по никнейму
+# Вызов функции для проверки совпадения никнейма\логина
 authenticate('NISHINOKIRI', 'https://api.github.com', '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')
