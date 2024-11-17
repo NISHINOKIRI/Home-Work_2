@@ -37,6 +37,6 @@ def authenticate(nickname, url, actual_token):
         print(f'{Colors.RED}Failed\nError status-code: {response.status_code}\nOr login is not equal {nickname}{Colors.RESET}')  # Красный цвет
 
 # Вызов функции для аутентификации
-github_api_auth('https://api.github.com', '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')
+github_api_auth('https://api.github.com', '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')
 # Вызов функции для проверки совпадения никнейма\логина
-authenticate('NISHINOKIRI', 'https://api.github.com', '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')
+authenticate('NISHINOKIRI', 'https://api.github.com', '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')
