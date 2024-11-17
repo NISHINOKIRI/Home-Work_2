@@ -2,8 +2,8 @@ import requests  # Импортируем библиотеку для выпол
 import pytest  # Импортируем библиотеку для написания тестов
 
 # Вводим данные (токен генерируется тут: https://github.com/settings/tokens)
-TOKEN = "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"  # Токен для авторизации в GitHub API
-NICKNAME = "NISHINOKIRI"  # Ожидаемый никнейм пользователя
+TOKEN = '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' # Токен для авторизации в GitHub API
+NICKNAME = 'NISHINOKIRI'  # Ожидаемый никнейм пользователя
 
 
 # Фикстура для получения базового URL GitHub API
