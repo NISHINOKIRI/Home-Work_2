@@ -8,7 +8,7 @@ class Colors:
     YELLOW = "\033[93m"  # Жёлтый цвет (для выделения ошибок)
 
 url = 'https://api.github.com'
-token = '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'
+token = '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'
 
 # Определяем класс AuthResponse, который будет использоваться для хранения данных авторизации
 class AuthResponse:
