@@ -1,0 +1,18 @@
+[92mДанные пользователя успешно получены.[0m
+[38;5;04m
+Данные пользователя[0m
+login: NISHINOKIRI
+id: 182152893
+followers: 0
+following: 0
+public_repos: 2
+created_at: 2024-09-19T19:15:05Z
+updated_at: 2024-11-10T21:30:16Z
+type: User
+[38;5;04m
+Ссылки[0m
+avatar: https://avatars.githubusercontent.com/u/182152893?v=4
+profile: https://github.com/NISHINOKIRI
+[38;5;04m
+Используемая подписочная модель[0m
+free
